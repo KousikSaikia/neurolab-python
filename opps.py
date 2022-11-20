@@ -4,8 +4,8 @@ class Employee:
             self.emp_salary = salary
 
         def displayEmployeeInfo(self):
-            print ("Employee name is ",self.emp_name)
+            print ("Employee name is ",self.emp_name,'and his salary is ',self.emp_salary)
 
 emp1 = Employee('Kousik', 1000)
 
-print(emp1.emp_name)
+emp1.displayEmployeeInfo()
